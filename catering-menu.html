@@ -16,16 +16,20 @@
         <!-- Personal CSS file -->
         <link rel="stylesheet" type="text/css" href="style.css">
         
-        <title>Home</title>
+        <title>Catering Menu</title>
     </head>
+    
     <body>
         <!--Header-->
         <div class="jumbotron">
-            <img src="Taste_of_Reality_Logo.png">
+            <h1>Catering Menu</h1>
         </div>
         <!--Navbar-->
         <nav class="navbar navbar-default">
             <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="index.html"><img src="Taste_of_Reality_Logo.png"></a>
+                </div>
                 <ul class="nav navbar-nav">
                     <!--Tab 1-->
                     <li class="dropdown">
@@ -40,7 +44,7 @@
                         </ul>
                     </li>
                     <!--Tab 2-->
-                    <li class="dropdown">
+                    <li class="dropdown active">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="catering-menu.html">
                             Catering Menu <span class="glyphicon glyphicon-chevron-down"></span>
                         </a>
@@ -70,130 +74,41 @@
                 </ul>
             </div>
         </nav>
-        
         <div class="container">
-            <!--Slideshow-->
-            <h2>Daily Specials</h2>  
-            <h6>As of February 7,2019</h6>
-            <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                <!-- Indicators -->
-                <ol class="carousel-indicators">
-                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#myCarousel" data-slide-to="1"></li>
-                    <li data-target="#myCarousel" data-slide-to="2"></li>
-                </ol>
-            
-                <!-- Wrapper for slides -->
-                <div class="carousel-inner">
-                    <div class="item active thumbnail">
-                        <a href="special-menu.html#sHot">
-                            <img src="#" alt="Hot Special" style="width:100%;">
-                            <div class="carousel-caption">
-                                <h3>Meatball Parmesan</h3>
-                            </div>
-                        </a>
-                    </div>
-                
-                    <div class="item thumbnail">
-                        <a href="special-menu.html#sWrap">
-                            <img src="#" alt="Wrap of the Day" style="width:100%;">
-                            <div class="carousel-caption">
-                                <h3>Burrito Baby</h3>
-                        </div>
-                        </a>
-                    </div>
-                    
-                    <div class="item thumbnail">
-                        <a href="special-menu.html#sPanini">
-                            <img src="#" alt="Today's Panini" style="width:100%;">
-                            <div class="carousel-caption">
-                                <h3>Oh Honey!!!</h3>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="item thumbnail">
-                        <a href="special-menu.html#sSoup">
-                            <img src="#" alt="Today's Soup" style="width:100%;">
-                            <div class="carousel-caption">
-                                <h3>Lasagna Soup</h3>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="item thumbnail">
-                        <a href="special-menu.html#sSandwich">
-                            <img src="#" alt="Sandwich" style="width:100%;">
-                            <div class="carousel-caption">
-                                <h3>Marianne's Mix</h3>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="item thumbnail">
-                        <a href="special-menu.html#sSalad">
-                            <img src="#" alt="Salad" style="width:100%;">
-                            <div class="carousel-caption">
-                                <h3>It's Greek to Me!!</h3>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="item thumbnail">
-                        <a href="special-menu.html#sDessert">
-                            <img src="#" alt="Dessert" style="width:100%;">
-                            <div class="carousel-caption">
-                                <h3>Cranberry Apple Cake</h3>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            
-                <!-- Left and right controls -->
-                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right"></span>
-                    <span class="sr-only">Next</span>
-                </a>
-            </div>
 
-            <!--Content-->
-            <div class="row justify-content-sm-center">
-                <!--About-->
-                <div class="col-sm-7">
-                    <h1>About Us</h1>
-                    <p>
-                        We cater all occasions from business luncheons to extravagant weddings. We are a family-owned and operated business, and have been since 1994. 
-                        A Taste of Reality is also a full service Delicatessen featuring Boar's Head provisions.
-                        <br>
-                        Our broad catering menu, along with a full array of services, offers the opportunity for you to truly create the kind of event that is exactly what 
-                        you envisioned. Marianne is the owner and chef for our Catering Department and she is a graduate of New York Restaurant School and has done all of her 
-                        training in New York City. We would love the opportunity to help you plan your perfect party.
-                        <br>
-                        Feel free to give us a call or stop by our store.
-                    </p>
-                </div>
-            </div>
             <div class="row">
-                <!--Visit-->
-                <div class="col-sm-5">
-                    <h1>Visit Us!</h1>
-                    <p>
-                        Stop by for breakfast, lunch or dinner and grab a cup of joe to go!!! A Taste of Reality deli has an extensive array of sandwiches including the famous 
-                        Mike's Delight, Slickster and Gutbuster just to mention a few. We combine country charm with gourmet flare from panini's to wraps... we do it all.
-                        <br>
-                        Short on time running from work to after school activities try a delicious dinner to go or homemade soup. We pride our selves on providing you with fresh 
-                        in season ingredients and superior quality.
-                    </p>
+                <!--Menu Navigation-->
+                <div class="col-xs-4">
+                    <h2>Menus</h2>
+                    <div class="list-group">
+                        <!--deli-->
+                        <a href="deli-menu.html" class="list-group-item">
+                            <h4 class="list-group-item-heading">Deli Menu</h4>
+                        </a>
+                        <a href="deli-menu.html#breakfast" class="list-group-item">Breakfast Menu</a>
+                        <a href="deli-menu.html#garden" class="list-group-item">From the Garden</a>
+                        <a href="deli-menu.html#sandwich" class="list-group-item">Sandwich Board</a>
+                        <a href="deli-menu.html#grill" class="list-group-item">Off the Grill</a>
+                        <!--catering-->
+                        <a href="catering-menu.html" class="list-group-item active">
+                            <h4 class="list-group-item-heading">Catering Menu</h4>
+                        </a>
+                        <a href="catering-menu.html#app" class="list-group-item">Appetizers</a>
+                        <a href="catering-menu.html#salad" class="list-group-item">Salads</a>
+                        <a href="catering-menu.html#platter" class="list-group-item">Sandwich Platters & Heros</a>
+                        <a href="catering-menu.html#cold" class="list-group-item">Cold Cut Buffet</a>
+                        <a href="catering-menu.html#hot" class="list-group-item">Hot Buffet</a>
+                        <a href="catering-menu.html#tray" class="list-group-item">Hot Selections by Tray</a>
+                        <!--special-->
+                        <a href="special-menu.html" class="list-group-item">
+                            <h4 class="list-group-item-heading">Special Menus</h4>
+                        </a>
+                        <a href="special-menu.html#packages" class="list-group-item">Holiday Packages</a>
+                        <a href="special-menu.html#specials" class="list-group-item">Daily Specials</a>
+                    </div>
                 </div>
-                <!--Catering-->
-                <div class="col-sm-5">
-                    <h1>Catering for All Occasions</h1>
-                    <p>
-                        Available for a minimum of 10 guests, we have three options available ranging in price from $12.99 to $16.99 per guest.
-                    </p>
-                </div>
+                
             </div>
-
             <!--Footer-->
             <div class="footer">
                 <div class="row">
@@ -266,3 +181,4 @@
         </div>
     </body>
 </html>
+    

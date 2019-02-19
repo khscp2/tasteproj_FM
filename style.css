@@ -1,0 +1,19 @@
+/*Header*/
+.jumbotron{
+    text-align: center;
+    background-color: #a7dd92;
+    padding: 0px;
+    margin: 0px;
+}
+.jumbotron img{
+    width:20%;
+    margin:0px;
+}
+.jumbotron h1{
+    padding: 20px;
+}
+
+/*Navbar*/
+.navbar-brand img{
+    width:auto;
+}
