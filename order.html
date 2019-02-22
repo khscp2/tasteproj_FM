@@ -27,53 +27,57 @@
         <!--Navbar-->
         <nav class="navbar navbar-default">
             <div class="container-fluid">
-                <div class="navbar-header">
-                    <a class="navbar-brand" href="index.html"><img src="Taste_of_Reality_Logo.png"></a>
+                <div class="row">
+                    <!--Header-->
+                    <div class="navbar-header col-xs-1">
+                        <a class="navbar-brand" href="index.html"><img src="Taste_of_Reality_Logo.png"></a>
+                    </div>
+                    <ul class="nav navbar-nav col-xs-11">
+                        <!--Tab 1-->
+                        <li class="dropdown active col-xs-2">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="deli-menu.html">
+                                Deli Menu <span class="glyphicon glyphicon-chevron-down"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="deli-menu.html#breakfast">Breakfast Menu</a></li>
+                                <li><a href="deli-menu.html#garden">From the Garden</a></li>
+                                <li><a href="deli-menu.html#sandwich">Sandwich Board</a></li>
+                                <li><a href="deli-menu.html#grill">Off the Grill</a></li>
+                            </ul>
+                        </li>
+                        <!--Tab 2-->
+                        <li class="dropdown col-xs-2">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="catering-menu.html">
+                                Catering Menu <span class="glyphicon glyphicon-chevron-down"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="catering-menu.html#app">Appetizers</a></li>
+                                <li><a href="catering-menu.html#salad">Salads</a></li>
+                                <li><a href="catering-menu.html#platter">Sandwich Platters & Heros</a></li>
+                                <li><a href="catering-menu.html#cold">Cold Cut Buffet</a></li>
+                                <li><a href="catering-menu.html#hot">Hot Buffet</a></li>
+                                <li><a href="catering-menu.html#tray">Hot Selections by Tray</a></li>
+                            </ul>
+                        </li>
+                        <!--Tab 3-->
+                        <li class="dropdown col-xs-2">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="special-menu.html">
+                                Special Menus <span class="glyphicon glyphicon-chevron-down"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="special-menu.html#packages">Holiday Packages</a></li>
+                                <li><a href="special-menu.html#specials">Daily Specials</a></li>
+                            </ul>
+                        </li>
+                        <!--Tab 4-->
+                        <li class="col-xs-2"><a href="order.html">Order Online <span class="glyphicon glyphicon-cutlery"></span></a></li>
+                        <!--Tab 5-->
+                        <li class="col-xs-2"><a href="contact.html">Contact Us <span class="glyphicon glyphicon-envelope"></span></a></li>
+                    </ul>
                 </div>
-                <ul class="nav navbar-nav">
-                    <!--Tab 1-->
-                    <li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="deli-menu.html">
-                            Deli Menu <span class="glyphicon glyphicon-chevron-down"></span>
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a href="deli-menu.html#breakfast">Breakfast Menu</a></li>
-                            <li><a href="deli-menu.html#garden">From the Garden</a></li>
-                            <li><a href="deli-menu.html#sandwich">Sandwich Board</a></li>
-                            <li><a href="deli-menu.html#grill">Off the Grill</a></li>
-                        </ul>
-                    </li>
-                    <!--Tab 2-->
-                    <li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="catering-menu.html">
-                            Catering Menu <span class="glyphicon glyphicon-chevron-down"></span>
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a href="catering-menu.html#app">Appetizers</a></li>
-                            <li><a href="catering-menu.html#salad">Salads</a></li>
-                            <li><a href="catering-menu.html#platter">Sandwich Platters & Heros</a></li>
-                            <li><a href="catering-menu.html#cold">Cold Cut Buffet</a></li>
-                            <li><a href="catering-menu.html#hot">Hot Buffet</a></li>
-                            <li><a href="catering-menu.html#tray">Hot Selections by Tray</a></li>
-                        </ul>
-                    </li>
-                    <!--Tab 3-->
-                    <li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="special-menu.html">
-                            Special Menus <span class="glyphicon glyphicon-chevron-down"></span>
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a href="special-menu.html#packages">Holiday Packages</a></li>
-                            <li><a href="special-menu.html#specials">Daily Specials</a></li>
-                        </ul>
-                    </li>
-                    <!--Tab 4-->
-                    <li class="active"><a href="order.html">Order Online <span class="glyphicon glyphicon-cutlery"></span></a></li>
-                    <!--Tab 5-->
-                    <li><a href="contact.html">Contact Us <span class="glyphicon glyphicon-envelope"></span></a></li>
-                </ul>
             </div>
         </nav>
+
         <div class="container">
             <div class="alert alert-success">
                 Or call (973) 838-5018 to place your order
@@ -81,7 +85,7 @@
 
             <!--Hours-->
             <div class="row">
-                <div class="col-sm-4">
+                <div class="col-xs-4">
                     <table class="table">
                         <thead>
                             <tr>
@@ -120,8 +124,11 @@
                         </tbody>
                     </table>
                 </div>
+                <div class="col-xs-1"></div>
                 <!--iframe-->
-                <iframe src="https://ordering.chownow.com/order/4077/locations"></iframe>
+                <div class="col-xs-6">
+                    <iframe class="chownow-order-online"></iframe>
+                </div>
             </div>
         </div>
         

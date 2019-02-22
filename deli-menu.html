@@ -27,58 +27,61 @@
         <!--Navbar-->
         <nav class="navbar navbar-default">
             <div class="container-fluid">
-                <div class="navbar-header">
-                    <a class="navbar-brand" href="index.html"><img src="Taste_of_Reality_Logo.png"></a>
+                <div class="row">
+                    <!--Header-->
+                    <div class="navbar-header col-xs-1">
+                        <a class="navbar-brand" href="index.html"><img src="Taste_of_Reality_Logo.png"></a>
+                    </div>
+                    <ul class="nav navbar-nav col-xs-11">
+                        <!--Tab 1-->
+                        <li class="dropdown active col-xs-2">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="deli-menu.html">
+                                Deli Menu <span class="glyphicon glyphicon-chevron-down"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="deli-menu.html#breakfast">Breakfast Menu</a></li>
+                                <li><a href="deli-menu.html#garden">From the Garden</a></li>
+                                <li><a href="deli-menu.html#sandwich">Sandwich Board</a></li>
+                                <li><a href="deli-menu.html#grill">Off the Grill</a></li>
+                            </ul>
+                        </li>
+                        <!--Tab 2-->
+                        <li class="dropdown col-xs-2">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="catering-menu.html">
+                                Catering Menu <span class="glyphicon glyphicon-chevron-down"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="catering-menu.html#app">Appetizers</a></li>
+                                <li><a href="catering-menu.html#salad">Salads</a></li>
+                                <li><a href="catering-menu.html#platter">Sandwich Platters & Heros</a></li>
+                                <li><a href="catering-menu.html#cold">Cold Cut Buffet</a></li>
+                                <li><a href="catering-menu.html#hot">Hot Buffet</a></li>
+                                <li><a href="catering-menu.html#tray">Hot Selections by Tray</a></li>
+                            </ul>
+                        </li>
+                        <!--Tab 3-->
+                        <li class="dropdown col-xs-2">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="special-menu.html">
+                                Special Menus <span class="glyphicon glyphicon-chevron-down"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="special-menu.html#packages">Holiday Packages</a></li>
+                                <li><a href="special-menu.html#specials">Daily Specials</a></li>
+                            </ul>
+                        </li>
+                        <!--Tab 4-->
+                        <li class="col-xs-2"><a href="order.html">Order Online <span class="glyphicon glyphicon-cutlery"></span></a></li>
+                        <!--Tab 5-->
+                        <li class="col-xs-2"><a href="contact.html">Contact Us <span class="glyphicon glyphicon-envelope"></span></a></li>
+                    </ul>
                 </div>
-                <ul class="nav navbar-nav">
-                    <!--Tab 1-->
-                    <li class="dropdown active">
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="deli-menu.html">
-                            Deli Menu <span class="glyphicon glyphicon-chevron-down"></span>
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a href="deli-menu.html#breakfast">Breakfast Menu</a></li>
-                            <li><a href="deli-menu.html#garden">From the Garden</a></li>
-                            <li><a href="deli-menu.html#sandwich">Sandwich Board</a></li>
-                            <li><a href="deli-menu.html#grill">Off the Grill</a></li>
-                        </ul>
-                    </li>
-                    <!--Tab 2-->
-                    <li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="catering-menu.html">
-                            Catering Menu <span class="glyphicon glyphicon-chevron-down"></span>
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a href="catering-menu.html#app">Appetizers</a></li>
-                            <li><a href="catering-menu.html#salad">Salads</a></li>
-                            <li><a href="catering-menu.html#platter">Sandwich Platters & Heros</a></li>
-                            <li><a href="catering-menu.html#cold">Cold Cut Buffet</a></li>
-                            <li><a href="catering-menu.html#hot">Hot Buffet</a></li>
-                            <li><a href="catering-menu.html#tray">Hot Selections by Tray</a></li>
-                        </ul>
-                    </li>
-                    <!--Tab 3-->
-                    <li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="special-menu.html">
-                            Special Menus <span class="glyphicon glyphicon-chevron-down"></span>
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a href="special-menu.html#packages">Holiday Packages</a></li>
-                            <li><a href="special-menu.html#specials">Daily Specials</a></li>
-                        </ul>
-                    </li>
-                    <!--Tab 4-->
-                    <li><a href="order.html">Order Online <span class="glyphicon glyphicon-cutlery"></span></a></li>
-                    <!--Tab 5-->
-                    <li><a href="contact.html">Contact Us <span class="glyphicon glyphicon-envelope"></span></a></li>
-                </ul>
             </div>
         </nav>
-        <div class="container">
 
+        <div class="container">
             <div class="row">
                 <!--Menu Navigation-->
-                <div class="col-xs-4">
+                <div class="col-xs-3">
                     <h2>Menus</h2>
                     <div class="list-group">
                         <!--deli-->
@@ -107,51 +110,761 @@
                         <a href="special-menu.html#specials" class="list-group-item">Daily Specials</a>
                     </div>
                 </div>
-                <!--Breakfast Menu-->
-                <div id="breakfast">
-                    <h2>Breakfast Menu</h2>
-                    <table class="table table-hover">
-                        <!--food items-->
-                        <tr>
-                            <td>
-                                <div class="checkbox">
-                                    <label><input type="checkbox" value="">Baked Goods</label>
-                                </div>
-                            </td>
-                            <td>
-                                <div class="checkbox">
-                                    <label><input type="checkbox" value="">Breakfast Sides</label>
-                                </div>
-                            </td>
-                            <td>
-                                <div class="checkbox">
-                                    <label><input type="checkbox" value="">Burrito</label>
-                                </div>
-                                <p>Double scrambled eggs, cheddar cheese, potatoes, peppers, onions & salsa in a wrap</p>
-                            </td>
-                            <td>
-                                <div class="checkbox">
-                                    <label><input type="checkbox" value="">Cheestopher</label>
-                                </div>
-                            </td>
-                            <td>
-                                <div class="checkbox">
-                                    <label><input type="checkbox" value="">Double Egg</label>
-                                </div>
-                            </td>
-                            <td>
-                                <div class="checkbox">
-                                    <label><input type="checkbox" value="">Baked Goods</label>
-                                </div>
-                            </td>
-                        </tr>
-                        <!--price-->
-                        <tr>
 
-                        </tr>
+                <!--Breakfast Menu-->
+                <div class="col-xs-8" id="breakfast">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th><h2>Breakfast Menu</h2></th>
+                                <th>
+                                    <h3>Price</h3>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!--baked goods-->
+                            <tr>
+                                <td>
+                                    <div class="checkbox">
+                                        <label><input type="checkbox" value="" data-toggle="collapse" data-target="#baked">Baked Goods</label>
+                                    </div>
+                                </td>
+                                <td></td>
+                                <tbody id="baked" class="collapse">
+                                    <tr>
+                                        <td>Muffin</td>
+                                        <td>$2.49</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Muffin with Butter</td>
+                                        <td>$2.75</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Roll</td>
+                                        <td>$0.75</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Roll with Butter</td>
+                                        <td>$1.25</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Bagel</td>
+                                        <td>$1.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Bagel with butter</td>
+                                        <td>$1.50</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Bagel with Cream cheese</td>
+                                        <td>$1.85</td>
+                                    </tr>
+                                </tbody>
+                            </tr>
+                            <!--breakfast sides-->
+                            <tr>
+                                <td>
+                                    <div class="checkbox">
+                                        <label><input type="checkbox" value="" data-toggle="collapse" data-target="#sides">Breakfast Sides</label>
+                                    </div>
+                                </td>
+                                <td></td>
+                                <tbody id="sides" class="collapse">
+                                    <tr>
+                                        <td>Hash Brown</td>
+                                        <td>$0.75</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Sausage Patty or Taylor Ham</td>
+                                        <td>$1.50</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Bacon</td>
+                                        <td>$1.50</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Extra Egg or Egg White</td>
+                                        <td>$0.40</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Cheese</td>
+                                        <td>$0.50</td>
+                                    </tr>
+                                </tbody>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <div class="checkbox">
+                                        <label><input type="checkbox" value="">Burrito</label>
+                                    </div>
+                                    <small>Double scrambled eggs, cheddar cheese, potatoes, peppers, onions & salsa in a wrap</small>
+                                </td>
+                                <td>$5.99</td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <div class="checkbox">
+                                        <label><input type="checkbox" value="">Cheestopher</label>
+                                    </div>
+                                    <small>Grilled cheese on white with taylor ham and cheese</small>
+                                </td>
+                                <td>$3.09</td>
+                            </tr>
+
+                            <!--double egg-->
+                            <tr>
+                                <td>
+                                    <div class="checkbox">
+                                        <label><input type="checkbox" value="" data-toggle="collapse" data-target="#double">Double Egg</label>
+                                    </div>
+                                </td>
+                                <td></td>
+                                <tbody id="double" class="collapse">
+                                    <tr>
+                                        <td>
+                                            Standard
+                                            <br>
+                                            <small>Two eggs cooked in any style</small>
+                                        </td>
+                                        <td>$2.49</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Cheese
+                                            <br>
+                                            <small>Two eggs cooked in any style with cheese</small>
+                                        </td>
+                                        <td>$2.99</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Platter
+                                            <br>
+                                            <small>Two eggs cooked in any style with your choice of toast, hash browns and either bacon, Taylor ham or sausage</small>
+                                        </td>
+                                        <td>$5.49</td>
+                                    </tr>
+                                </tbody>
+                            </tr>
+                            <!--egg any style-->
+                            <tr>
+                                <td>
+                                    <div class="checkbox">
+                                        <label><input type="checkbox" value="" data-toggle="collapse" data-target="#egg">Egg any Style</label>
+                                    </div>
+                                </td>
+                                <td></td>
+                                <tbody id="egg" class="collapse">
+                                    <tr>
+                                        <td>
+                                            Standard
+                                            <br>
+                                            <small>One egg cooked in any style</small>
+                                        </td>
+                                        <td>$1.59</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Cheese
+                                            <br>
+                                            <small>One egg cooked in any style with cheese</small>
+                                        </td>
+                                        <td>$2.09</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Early Bird
+                                            <br>
+                                            <small>One egg cooked in any style with cheese on an Engtrsh Muffin</small>
+                                        </td>
+                                        <td>$2.09</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Special
+                                            <br>
+                                            <small>One egg cooked in any style with cheese, Taylor Ham, Sausage or Bacon</small>
+                                        </td>
+                                        <td>$3.49</td>
+                                    </tr>
+                                </tbody>
+                            </tr>
+                            
+                            <tr>
+                                <td>
+                                    <div class="checkbox">
+                                        <label><input type="checkbox" value="">French Toast Platter</label>
+                                    </div>
+                                    <small>Three slices of French toast with side of butter and syrup</small>
+                                </td>
+                                <td>$4.89</td>
+                            </tr>
+                            
+                            <tr>
+                                <td>
+                                    <div class="checkbox">
+                                        <label><input type="checkbox" value="">Gut Buster</label>
+                                    </div>
+                                    <small>
+                                        Double Egg, Double Cheese, Hash Browns, and Taylor Ham* on a Long Roll
+                                        <br>
+                                        *Substitute Bacon or Sausage
+                                    </small>
+                                </td>
+                                <td>$7.49</td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <div class="checkbox">
+                                        <label><input type="checkbox" value="">Hoagie</label>
+                                    </div>
+                                    <small>Scrambled eggs with peppers, potatoes & provolone on a long roll</small>
+                                </td>
+                                <td>$4.99</td>
+                            </tr>
+                            
+                            <tr>
+                                <td>
+                                    <div class="checkbox">
+                                        <label><input type="checkbox" value="">Monster</label>
+                                    </div>
+                                    <small>
+                                        Double Egg, Double Cheese with Taylor Ham*
+                                        <br>
+                                        *Substitute Bacon or Sausage
+                                    </small>
+                                </td>
+                                <td>$4.99</td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <div class="checkbox">
+                                        <label><input type="checkbox" value="">Omelette</label>
+                                    </div>
+                                    <small>Triple scrambled egg with ham and cheese served with hash browns and toast in a platter</small>
+                                </td>
+                                <td>$5.49</td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <div class="checkbox">
+                                        <label><input type="checkbox" value="">TH&C</label>
+                                    </div>
+                                    <small>Taylor Ham and Cheese</small>
+                                </td>
+                                <td>$2.99</td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <div class="checkbox">
+                                        <label><input type="checkbox" value="">The Skinny</label>
+                                    </div>
+                                    <small>Triple egg white with spinach, tomato and feta cheese in a whole wheat wrap</small>
+                                </td>
+                                <td>$4.99</td>
+                            </tr>
+                        </tbody>
                     </table>
                 </div>
             </div>
+
+            <!--From the Garden-->
+            <div class="row">
+                <div class="col-xs-3"></div>
+                <div class="col-xs-8" id="garden">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th><h2>From the Garden</h2></th>
+                                <th>
+                                    <h3>Price</h3>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!--antipasto salad-->
+                            <tr>
+                                <td>
+                                    <div class="checkbox">
+                                        <label><input type="checkbox" value="" data-toggle="collapse" data-target="#antipasto">Antipasto Salad</label>
+                                    </div>
+                                    <small>Ham, genoa, provolone, roasted peppers, olives, tomatoes, and red onion over a bed of mixed greens served with oil and vinegar</small>
+                                </td>
+                                <td></td>
+                                <tbody id="antipasto" class="collapse">
+                                    <tr>
+                                        <td>Small</td>
+                                        <td>$4.99</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Large</td>
+                                        <td>$8.49</td>
+                                    </tr>
+                                </tbody>
+                            </tr>
+                            <!--caesar salad-->
+                            <tr>
+                                <td>
+                                    <div class="checkbox">
+                                        <label><input type="checkbox" value="" data-toggle="collapse" data-target="#caesar">Caesar Salad</label>
+                                    </div>
+                                    <small>Fresh cut romaine lettuce with parmesan cheese and store made garlic seasoned croutons</small>
+                                </td>
+                                <td></td>
+                                <tbody id="caesar" class="collapse">
+                                    <tr>
+                                        <td>Small</td>
+                                        <td>$4.99</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Large</td>
+                                        <td>$7.99</td>
+                                    </tr>
+                                </tbody>
+                            </tr>
+                            <!--chef salad-->
+                            <tr>
+                                <td>
+                                    <div class="checkbox">
+                                        <label><input type="checkbox" value="" data-toggle="collapse" data-target="#chef">Chef Salad</label>
+                                    </div>
+                                    <small>Ham, Turkey,Roast Beef and Swiss Cheese on a bed of crisp lettuce with vegetables.</small>
+                                </td>
+                                <td></td>
+                                <tbody id="chef" class="collapse">
+                                    <tr>
+                                        <td>Small</td>
+                                        <td>$4.49</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Large</td>
+                                        <td>$7.49</td>
+                                    </tr>
+                                </tbody>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <div class="checkbox">
+                                        <label><input type="checkbox" value="">Cranberry Walnut Salad</label>
+                                    </div>
+                                    <small>Dried cranberries, candied walnuts, crumbled blue cheese, grilled chicken and red onion over baby greens served with a honey-thyme vinaigrette</small>
+                                </td>
+                                <td>$8.99</td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <div class="checkbox">
+                                        <label><input type="checkbox" value="">Greek Salad</label>
+                                    </div>
+                                    <small>Cucumbers, grape tomatoes, peppers, red onion, olives and feta cheese over mixed greens topped served with oil/vinegar dressing</small>
+                                </td>
+                                <td>$8.49</td>
+                            </tr>
+                            <!--garden salad-->
+                            <tr>
+                                <td>
+                                    <div class="checkbox">
+                                        <label><input type="checkbox" value="" data-toggle="collapse" data-target="#gard">Garden Salad</label>
+                                    </div>
+                                    <small>Crisp Lettuce with Celery, Carrots, Cucumbers, Peppers and Tomatoes.</small>
+                                </td>
+                                <td></td>
+                                <tbody id="gard" class="collapse">
+                                    <tr>
+                                        <td>Small</td>
+                                        <td>$3.99</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Large</td>
+                                        <td>$6.99</td>
+                                    </tr>
+                                </tbody>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <div class="checkbox">
+                                        <label><input type="checkbox" value="">Reality Salad</label>
+                                    </div>
+                                    <small>Chopped salad with cucumbers, grape tomatoes, crumbled bacon, and feta cheese over mixed greens topped with fried seasoned chick peas served with ranch dressing</small>
+                                </td>
+                                <td>$8.49</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!--Sandwich Board-->
+            <div class="row">
+                <div class="col-xs-3"></div>
+                <div class="col-xs-8" id="sandwich">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th><h2>Sandwich Board</h2></th>
+                                <th>
+                                    <h3>Price</h3>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <div class="checkbox">
+                                        <label><input type="checkbox" value="" data-toggle="collapse" data-target="#"></label>
+                                    </div>
+                                </td>
+                                <td></td>
+                                <tbody id="" class="collapse">
+                                    <tr>
+                                        <td>
+                                            
+                                            <br>
+                                            <small></small>
+                                        </td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <div class="checkbox">
+                                        <label><input type="checkbox" value=""></label>
+                                    </div>
+                                    <small></small>
+                                </td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!--Off the Grill-->
+            <div class="row">
+                <div class="col-xs-3"></div>
+                <div class="col-xs-8" id="grill">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th><h2>Off the Grill</h2></th>
+                                <th>
+                                    <h3>Price</h3>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <div class="checkbox">
+                                        <label><input type="checkbox" value="">BLT</label>
+                                    </div>
+                                    <small>Bacon, Lettuce & Tomato</small>
+                                </td>
+                                <td>$4.99</td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <div class="checkbox">
+                                        <label><input type="checkbox" value="">Buffalo Wings</label>
+                                    </div>
+                                    <small>Buffalo Wings with Blue Cheese</small>
+                                </td>
+                                <td>$6.99</td>
+                            </tr>
+                            <!--Burgers-->
+                            <tr>
+                                <td>
+                                    <div class="checkbox">
+                                        <label><input type="checkbox" value="" data-toggle="collapse" data-target="#burger">Burgers</label>
+                                    </div>
+                                    <small>Hamburgers, Cheeseburgers and the like</small>
+                                </td>
+                                <td></td>
+                                <tbody id="burger" class="collapse">
+                                    <tr>
+                                        <td>Hamburger</td>
+                                        <td>$4.99</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Cheeseburger</td>
+                                        <td>$5.49</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Bacon Cheeseburger</td>
+                                        <td>$6.49</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Pizza Burger</td>
+                                        <td>$5.99</td>
+                                    </tr>
+                                    <tr>
+                                        <td>7oz (No Cow) Veggie Burger</td>
+                                        <td>$5.29</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Andy's Puck
+                                            <br>
+                                            <small>Bacon, Cheddar, fried onions, BBQ sauce</small>
+                                        </td>
+                                        <td>$6.79</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Moon Burger
+                                            <br>
+                                            <small>8oz burger with Taylor ham, lettuce, tomato & mayo</small>
+                                        </td>
+                                        <td>$5.79</td>
+                                    </tr>
+                                </tbody>
+                            </tr>
+                            <!--Cheese Steaks-->
+                            <tr>
+                                <td>
+                                    <div class="checkbox">
+                                        <label><input type="checkbox" value="" data-toggle="collapse" data-target="#cheese">Cheese Steaks</label>
+                                    </div>
+                                    <small>8 Ounce Cheese Steak Sandwiches</small>
+                                </td>
+                                <td></td>
+                                <tbody id="cheese" class="collapse">
+                                    <tr>
+                                        <td>
+                                            Philly Style
+                                            <br>
+                                            <small>American cheese with peppers & onions</small>
+                                        </td>
+                                        <td>$6.99</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            New York Style
+                                            <br>
+                                            <small>Swiss cheese & mushroom</small>
+                                        </td>
+                                        <td>$6.99</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Dave's Famous
+                                            <br>
+                                            <small>American cheese, pepperoni, peppers, onions & hot peppers</small>
+                                        </td>
+                                        <td>$6.99</td>
+                                    </tr>
+                                </tbody>
+                            </tr>
+                            <!--Chicken Steaks-->
+                            <tr>
+                                <td>
+                                    <div class="checkbox">
+                                        <label><input type="checkbox" value="" data-toggle="collapse" data-target="#chicken">Chicken Steaks</label>
+                                    </div>
+                                    <small>8 Ounce Chicken Steak Sandwiches</small>
+                                </td>
+                                <td></td>
+                                <tbody id="chicken" class="collapse">
+                                    <tr>
+                                        <td>
+                                            Philly Style
+                                            <br>
+                                            <small>American cheese with peppers & onions</small>
+                                        </td>
+                                        <td>$6.99</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Jersey Style
+                                            <br>
+                                            <small>American cheese, lettuce, tomato & mayo</small>
+                                        </td>
+                                        <td>$6.99</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Buffalo Steak
+                                            <br>
+                                            <small>Cheddar cheese, wing sauce, Bleu Cheese dressing</small>
+                                        </td>
+                                        <td>$6.99</td>
+                                    </tr>
+                                </tbody>
+                            </tr>
+                            <!--Chicken breast-->
+                            <tr>
+                                <td>
+                                    <div class="checkbox">
+                                        <label><input type="checkbox" value="" data-toggle="collapse" data-target="#breast">Chicken Breast</label>
+                                    </div>
+                                    <small>Chicken; grilled or breaded</small>
+                                </td>
+                                <td></td>
+                                <tbody id="breast" class="collapse">
+                                    <tr>
+                                        <td>Grilled Chicken Cutlet</td>
+                                        <td>$6.99</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Breaded Chicken Cutlet</td>
+                                        <td>$6.99</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Chicken Parm Hero</td>
+                                        <td>$7.49</td>
+                                    </tr>
+                                </tbody>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <div class="checkbox">
+                                        <label><input type="checkbox" value="">Chicken Tenders</label>
+                                    </div>
+                                    <small>Four (4) delicious Chicken Tenders or (3) tenders with fries</small>
+                                </td>
+                                <td>$5.99</td>
+                            </tr>
+                            <!--Dogs-->
+                            <tr>
+                                <td>
+                                    <div class="checkbox">
+                                        <label><input type="checkbox" value="" data-toggle="collapse" data-target="#dog">Dogs</label>
+                                    </div>
+                                    <small>We use Boar's Head Hot Dogs — Choose "Traditional" or "Italian"</small>
+                                </td>
+                                <td></td>
+                                <tbody id="dog" class="collapse">
+                                    <tr>
+                                        <td>Hot Dog</td>
+                                        <td>$2.99</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Italian Hot Dog
+                                            <br>
+                                            <small>Two Boar’s Head dogs w/lots of potatoes, peppers &; onions on a long roll</small>
+                                        </td>
+                                        <td>$6.49</td>
+                                    </tr>
+                                </tbody>
+                            </tr>
+                            <!--Grilled cheese-->
+                            <tr>
+                                <td>
+                                    <div class="checkbox">
+                                        <label><input type="checkbox" value="" data-toggle="collapse" data-target="#grillC">Grilled Cheese</label>
+                                    </div>
+                                </td>
+                                <td></td>
+                                <tbody id="grillC" class="collapse">
+                                    <tr>
+                                        <td>Grilled Cheese</td>
+                                        <td>$3.99</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Grilled Cheese with Bacon</td>
+                                        <td>$5.49</td>
+                                    </tr>
+                                </tbody>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <div class="checkbox">
+                                        <label><input type="checkbox" value="">Hot Roast Beef with Gravy</label>
+                                    </div>
+                                    <small>A Hot Roast Beef Sandwich topped with Gravy.</small>
+                                </td>
+                                <td>$7.49</td>
+                            </tr>
+                            <!--Parmesan Hero Sandwiches-->
+                            <tr>
+                                <td>
+                                    <div class="checkbox">
+                                        <label><input type="checkbox" value="" data-toggle="collapse" data-target="#parmHero">Parmesan Hero Sandwiches</label>
+                                    </div>
+                                    <small>A sandwich with breaded chicken cutlet, breaded eggplant or store made meatballs topped with melted mozzarella cheese and fresh tomato sauce on a long roll</small>
+                                </td>
+                                <td></td>
+                                <tbody id="parmHero" class="collapse">
+                                    <tr>
+                                        <td>Breaded Chicken Cutlet</td>
+                                        <td>$7.49</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Breaded Eggplant</td>
+                                        <td>$7.49</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Store Made Meatballs</td>
+                                        <td>$7.49</td>
+                                    </tr>
+                                </tbody>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <div class="checkbox">
+                                        <label><input type="checkbox" value="">Reuben</label>
+                                    </div>
+                                    <small>Grilled corned beef, melted Swisscom cheese, sauerkraut and Russian dressing on grilled rye.</small>
+                                </td>
+                                <td>$6.99</td>
+                            </tr>
+                            <!--sides-->
+                            <tr>
+                                <td>
+                                    <div class="checkbox">
+                                        <label><input type="checkbox" value="" data-toggle="collapse" data-target="#side">Sides</label>
+                                    </div>
+                                </td>
+                                <td></td>
+                                <tbody id="side" class="collapse">
+                                    <tr>
+                                        <td>French Fries</td>
+                                        <td>$2.49</td>
+                                    </tr>
+                                    <tr>
+                                        <td>French Fries with Cheese</td>
+                                        <td>$2.99</td>
+                                    </tr>
+                                    <tr>
+                                        <td>French Fries with Gravy</td>
+                                        <td>$2.99</td>
+                                    </tr>
+                                    <tr>
+                                        <td>French Fries with Cheese & Gravy</td>
+                                        <td>$3.49</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Onion Rings</td>
+                                        <td>$3.99</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Mozzarella Sticks</td>
+                                        <td>$4.99</td>
+                                    </tr>
+                                </tbody>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
         </div>
             <!--Footer-->
             <div class="footer">
