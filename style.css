@@ -10,7 +10,7 @@
     /*Header*/
     .jumbotron{
         text-align: center;
-        background-color: #a7dd92;
+        background-color: #a4cf91;
         padding: 0px;
         margin: 0px;
     }
@@ -30,7 +30,7 @@
     .navbar-brand img{
         height: 100%;
         margin:0px;
-        padding: 0px;
+        padding: 0px 0px 0px 10px;
     }
     .container-fluid {
         margin: 0 auto;
@@ -48,6 +48,8 @@
     /*Slide Show*/
     #myCarousel{
         height: 400px;
+        width:70%;
+        margin: auto;
     }
     #myCarousel div{
         height: 400px;
@@ -58,3 +60,19 @@ label{
     font-size: 18px;
     color: #529937;
 }
+
+/*Contact*/
+    /*inputs*/
+    label#service{
+        color: #17a2b8;
+    }
+    label#food{
+        color: #28a745;
+    }
+    label#atmos{
+        color: #ffc107;
+    }
+
+    iframe{
+        width:100%;
+    }

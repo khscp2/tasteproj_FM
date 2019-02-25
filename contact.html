@@ -29,12 +29,12 @@
             <div class="container-fluid">
                 <div class="row">
                     <!--Header-->
-                    <div class="navbar-header col-xs-1">
+                    <div class="navbar-header">
                         <a class="navbar-brand" href="index.html"><img src="Taste_of_Reality_Logo.png"></a>
                     </div>
                     <ul class="nav navbar-nav col-xs-11">
                         <!--Tab 1-->
-                        <li class="dropdown active col-xs-2">
+                        <li class="dropdown col-xs-2">
                             <a class="dropdown-toggle" data-toggle="dropdown" href="deli-menu.html">
                                 Deli Menu <span class="glyphicon glyphicon-chevron-down"></span>
                             </a>
@@ -72,7 +72,7 @@
                         <!--Tab 4-->
                         <li class="col-xs-2"><a href="order.html">Order Online <span class="glyphicon glyphicon-cutlery"></span></a></li>
                         <!--Tab 5-->
-                        <li class="col-xs-2"><a href="contact.html">Contact Us <span class="glyphicon glyphicon-envelope"></span></a></li>
+                        <li class="col-xs-2 active"><a href="contact.html">Contact Us <span class="glyphicon glyphicon-envelope"></span></a></li>
                     </ul>
                 </div>
             </div>
@@ -81,10 +81,11 @@
         <div class="container">
             <!--Contact and directions-->
             <div class="row">
-                <div class="col-sm-5">
+                <div class="col-sm-7">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d24099.560963471118!2d-74.371262!3d40.971733!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c30508baae916d%3A0x2ba142f9a641a493!2s71+Fayson+Lakes+Rd%2C+Butler%2C+NJ+07405!5e0!3m2!1sen!2sus!4v1550776169655" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
                 </div>
-                <div class="col-sm-5">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-3">
                     <h2>Contact Info:</h2>
                     <p>
                         71 Fayson Lakes Road
@@ -101,17 +102,43 @@
 
             <!--Ratings Input-->
             <div class="row">
-                <div class="col-xs-4">
+                <div class="col-sm-6">
                     <h2>Rate Us!</h2>
                     <!--Customer Service-->
-                    <label for="service">Customer Service:</label>
-                    <div class="input-group mb-3">
-                        <input type="text" class="form-control" id="service" aria-describedby="basic-addon3">
-                        <div class="input-group-append">
-                            <span class="input-group-text">.00</span>
+                    <label id="service" for="service">Customer Service:</label>
+                    <div class="input-group">
+                        <input id="service" type="text" class="form-control" name="service">
+                        <span class="input-group-addon">/10</span>
+                    </div>
+                    <!--Food-->
+                    <label id="food" for="food">Food:</label>
+                    <div class="input-group">
+                        <input id="food" type="text" class="form-control" name="food">
+                        <span class="input-group-addon">/10</span>
+                    </div>
+                    <!--Atmosphere-->
+                    <label id="atmos" for="atmos">Atmosphere:</label>
+                    <div class="input-group">
+                        <input id="atmos" type="text" class="form-control" name="atmos">
+                        <span class="input-group-addon">/10</span>
+                    </div>
+                    
+                    <h3>Rating:</h3>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-info" role="progressbar" style="width:40%">
+                            Service
+                        </div>
+                        <div class="progress-bar progress-bar-success" role="progressbar" style="width:10%">
+                            Food
+                        </div>
+                        <div class="progress-bar progress-bar-warning" role="progressbar" style="width:20%">
+                            Atmosphere
                         </div>
                     </div>
-
+                </div>
+                <div class="col-sm-1"></div>
+                <div class="col-sm-5">
+                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FATasteofReality&tabs=timeline&width=400&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="400" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
                 </div>
             </div>
         </div>
