@@ -7,6 +7,10 @@
         margin:0px;
         padding: 0px;
     }
+    h1, h2, h3, h4{
+        font-family: 'Charm';
+        font-weight: bold;
+    }
     /*Header*/
     .jumbotron{
         text-align: center;
@@ -21,6 +25,7 @@
     .jumbotron h1{
         padding: 40px;
         margin:0px;
+        font-size:75px;
     }
 
     /*Navbar*/
@@ -55,11 +60,20 @@
         height: 400px;
     }
 
-/*Menus*/
-label{
-    font-size: 18px;
-    color: #529937;
-}
+/*Menu Pages*/
+    /*Menu*/
+    label{
+        font-size: 18px;
+        color: #529937;
+    }
+    /*menu nav*/
+    .list-group-item-heading{
+        font-size:20px;
+    }
+    .list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover{
+        background-color: #2a9e5e;
+        border-color: #33b77a;
+    }
 
 /*Contact*/
     /*inputs*/

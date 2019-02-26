@@ -16,6 +16,8 @@
         <!-- Personal CSS file -->
         <link rel="stylesheet" type="text/css" href="style.css">
         
+        <link href='https://fonts.googleapis.com/css?family=Charm' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Doppio One' rel='stylesheet'>
         <title>Contact</title>
     </head>
     
@@ -84,7 +86,6 @@
                 <div class="col-sm-7">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d24099.560963471118!2d-74.371262!3d40.971733!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c30508baae916d%3A0x2ba142f9a641a493!2s71+Fayson+Lakes+Rd%2C+Butler%2C+NJ+07405!5e0!3m2!1sen!2sus!4v1550776169655" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
                 </div>
-                <div class="col-sm-1"></div>
                 <div class="col-sm-3">
                     <h2>Contact Info:</h2>
                     <p>
@@ -107,19 +108,19 @@
                     <!--Customer Service-->
                     <label id="service" for="service">Customer Service:</label>
                     <div class="input-group">
-                        <input id="service" type="text" class="form-control" name="service">
+                        <input id="service" type="number" class="form-control" name="service" min="0" max="10">
                         <span class="input-group-addon">/10</span>
                     </div>
                     <!--Food-->
                     <label id="food" for="food">Food:</label>
                     <div class="input-group">
-                        <input id="food" type="text" class="form-control" name="food">
+                        <input id="food" type="number" class="form-control" name="food" min="0" max="10">
                         <span class="input-group-addon">/10</span>
                     </div>
                     <!--Atmosphere-->
                     <label id="atmos" for="atmos">Atmosphere:</label>
                     <div class="input-group">
-                        <input id="atmos" type="text" class="form-control" name="atmos">
+                        <input id="atmos" type="number" class="form-control" name="atmos" min="0" max="10">
                         <span class="input-group-addon">/10</span>
                     </div>
                     
