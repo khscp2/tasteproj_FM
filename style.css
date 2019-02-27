@@ -77,13 +77,13 @@
 
 /*Contact*/
     /*inputs*/
-    label#service{
+    label.service{
         color: #17a2b8;
     }
-    label#food{
+    label.food{
         color: #28a745;
     }
-    label#atmos{
+    label.atmos{
         color: #ffc107;
     }
 

@@ -105,34 +105,36 @@
             <div class="row">
                 <div class="col-sm-6">
                     <h2>Rate Us!</h2>
-                    <!--Customer Service-->
-                    <label id="service" for="service">Customer Service:</label>
-                    <div class="input-group">
-                        <input id="service" type="number" class="form-control" name="service" min="0" max="10">
-                        <span class="input-group-addon">/10</span>
-                    </div>
-                    <!--Food-->
-                    <label id="food" for="food">Food:</label>
-                    <div class="input-group">
-                        <input id="food" type="number" class="form-control" name="food" min="0" max="10">
-                        <span class="input-group-addon">/10</span>
-                    </div>
-                    <!--Atmosphere-->
-                    <label id="atmos" for="atmos">Atmosphere:</label>
-                    <div class="input-group">
-                        <input id="atmos" type="number" class="form-control" name="atmos" min="0" max="10">
-                        <span class="input-group-addon">/10</span>
-                    </div>
-                    
+                        <!--Customer Service-->
+                        <label class="service" for="service">Customer Service:</label>
+                        <div class="input-group">
+                            <input id="service" type="number" class="form-control" name="service" min="0" max="10">
+                            <span class="input-group-addon">/10</span>
+                        </div>
+                        <!--Food-->
+                        <label class="food" for="food">Food:</label>
+                        <div class="input-group">
+                            <input id="food" type="number" class="form-control" name="food" min="0" max="10">
+                            <span class="input-group-addon">/10</span>
+                        </div>
+                        <!--Atmosphere-->
+                        <label class="atmos" for="atmos">Atmosphere:</label>
+                        <div class="input-group">
+                            <input id="atmos" type="number" class="form-control" name="atmos" min="0" max="10">
+                            <span class="input-group-addon">/10</span>
+                        </div>
+                        <br>
+                        <button class="btn btn-default" type="button" onclick="ratingSubmit()">Submit</button>
+
                     <h3>Rating:</h3>
                     <div class="progress">
-                        <div class="progress-bar progress-bar-info" role="progressbar" style="width:40%">
+                        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuemin="0" aria-valuemax="10">
                             Service
                         </div>
-                        <div class="progress-bar progress-bar-success" role="progressbar" style="width:10%">
+                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuemin="0" aria-valuemax="10">
                             Food
                         </div>
-                        <div class="progress-bar progress-bar-warning" role="progressbar" style="width:20%">
+                        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuemin="0" aria-valuemax="10">
                             Atmosphere
                         </div>
                     </div>
