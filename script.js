@@ -1,9 +1,12 @@
-function ratingSubmit(){
-    var s = document.forms["inputs"]["service"].value;
-    var f = document.getElementById("food").value;
-    var a = document.getElementById("atmos").value;
-
-    $(".progress-bar-info").css("width", s + "%").attr("aria-valuenow", s);
-    $(".progress-bar-success").css("width", f + "%").attr("aria-valuenow", f);
-    $(".progress-bar-warning").css("width", a + "%").attr("aria-valuenow", a);
-}
+$(document).ready(function() 
+{
+  var percentage = 10;
+  var s = document.getElementById("service").value;
+  $("[name='submit']").click(function(e) 
+  {
+    e.preventDefault();
+    $(".progress-bar-info").css("width", s + "%");
+    $(".progress-bar-success").css("width", s + "%");
+    $(".progress-bar-warning").css("width", percentage + "%");
+  });
+});
