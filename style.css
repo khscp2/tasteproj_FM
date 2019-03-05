@@ -8,9 +8,12 @@
         padding: 0px;
     }
     h1, h2, h3, h4{
-        font-family: 'Charm';
         font-weight: bold;
     }
+    .container{
+        text-align: center;
+    }
+
     /*Header*/
     .jumbotron{
         text-align: center;
@@ -26,6 +29,7 @@
         padding: 40px;
         margin:0px;
         font-size:75px;
+        font-family: 'Charm';
     }
 
     /*Navbar*/

@@ -8,5 +8,8 @@ $(document).ready(function()
     $(".progress-bar-info").css("width", s + "%");
     $(".progress-bar-success").css("width", s + "%");
     $(".progress-bar-warning").css("width", percentage + "%");
+    
+    console.log(parseInt(s));
+    console.log(typeof s);
   });
 });
