@@ -6,15 +6,15 @@ $(document).ready(function()
   $("[name='submit']").click(function(e) 
   {
     e.preventDefault();
-    if(s=document.forms["inputs"]["service"].value){}
-    if(f=document.forms["inputs"]["food"].value){}
-    if(a=document.forms["inputs"]["atmos"].value){}
+    
+    if(s = (document.forms["inputs"]["service"].value*10)/3){}
+    if(f = (document.forms["inputs"]["food"].value*10)/3){}
+    if(a = (document.forms["inputs"]["atmos"].value*10)/3){}
 
     $(".progress-bar-info").css("width", s + "%");
     $(".progress-bar-success").css("width", f + "%");
     $(".progress-bar-warning").css("width", a + "%");
-    
-    console.log(s);
-    console.log(typeof s);
+
+    $(".alert-danger").css("display", "none");
   });
 });
