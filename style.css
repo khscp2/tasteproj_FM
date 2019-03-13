@@ -51,6 +51,14 @@
         background-color: #c6c6c6;
         margin: 20px 0px 0px 0px;
         padding: 10px 0px 10px 0px;
+        font-size:75%;
+    }
+    .footer .btn{
+        width:125px;
+        font-size:90%;
+    }
+    .footer td{
+        width:100%;
     }
 
 /*Index*/
