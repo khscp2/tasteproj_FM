@@ -70,6 +70,9 @@
     #myCarousel div{
         height: 400px;
     }
+    .carousel-caption{
+        text-shadow: 3px 3px 10px black;
+    }
 
 /*Menu Pages*/
     /*Menu*/
