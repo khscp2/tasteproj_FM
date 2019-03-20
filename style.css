@@ -6,6 +6,7 @@
     body{
         margin:0px;
         padding: 0px;
+        background-color: #a4cf91;
     }
     h1, h2, h3, h4{
         font-weight: bold;
@@ -13,9 +14,15 @@
     h1, h2, h3{
         font-family:"Arial Black";
     }
+    .container{
+        background-color: antiquewhite;
+        margin:0px auto;
+    }
     .center{
         text-align: center;
     }
+
+    /*header links*/
     h1>a{
         color: #47a832;
     }
@@ -61,6 +68,9 @@
         margin: 20px 0px 0px 0px;
         padding: 10px 0px 10px 0px;
         font-size:75%;
+    }
+    .footer .container{
+        background-color: #c6c6c6;
     }
     .footer .btn{
         width:125px;
