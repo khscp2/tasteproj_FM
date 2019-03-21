@@ -6,7 +6,7 @@
     body{
         margin:0px;
         padding: 0px;
-        background-color: #a4cf91;
+        background-color: #d2f0c4;
     }
     h1, h2, h3, h4{
         font-weight: bold;
@@ -14,20 +14,20 @@
     h1, h2, h3{
         font-family:"Arial Black";
     }
-    .container{
-        background-color: antiquewhite;
-        margin:0px auto;
+    h1,h2{
+        color: #001b35;
+    }
+
+    .table{
+        background-color: #f7f7f7;
     }
     .center{
         text-align: center;
     }
 
     /*header links*/
-    h1>a{
-        color: #47a832;
-    }
-    h1>a:hover{
-        color: #2e771f;
+    h1>a, p>a{
+        color: #003e79;
     }
 
     /*Header*/
@@ -49,6 +49,7 @@
     }
 
     /*Navbar*/
+    
     .navbar-brand{
         padding: 0px;
     }
@@ -64,7 +65,7 @@
 
     /*Footer*/
     .footer{
-        background-color: #c6c6c6;
+        background-color: #c6c6c6 !important; 
         margin: 20px 0px 0px 0px;
         padding: 10px 0px 10px 0px;
         font-size:75%;
